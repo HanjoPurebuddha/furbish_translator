@@ -1,0 +1,14 @@
+{
+  "furb_tweets": [{
+    "tweet": "This is the furbish tweet",
+    "time_to_tweet": "2018-12-10T13:49:51.141Z"
+  },
+  {
+    "tweet": "This is the furbish tweet 2",
+    "time_to_tweet": "2019-12-10T13:49:51.141Z"
+  },
+  {
+    "tweet": "This is the furbish tweet 3",
+    "time_to_tweet": "2020-12-10T13:49:51.141Z"
+  } ]
+}
