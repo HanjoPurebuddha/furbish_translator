@@ -2,119 +2,293 @@
     "tweet_date_pairs": [
         [
             "May all furbies be happy",
-            "5/1/2022 16:44"
+            "5/1/2022 16:44",
+            "0"
         ],
         [
             "May all furbies be free",
-            "5/2/2022 16:44"
+            "5/2/2022 16:44",
+            "1"
         ],
         [
             "May all furbies be free from suffering",
-            "5/3/2022 16:44"
+            "5/3/2022 16:44",
+            "2"
         ],
         [
             "May all furbies benefit all beings",
-            "5/4/2022 16:44"
+            "5/4/2022 16:44",
+            "3"
         ],
         [
             "May all beings be happy",
-            "5/5/2022 16:44"
+            "5/5/2022 16:44",
+            "4"
         ],
         [
             "May all beings be free",
-            "5/6/2022 16:44"
+            "5/6/2022 16:44",
+            "5"
         ],
         [
             "May all beings be free from suffering",
-            "5/7/2022 16:44"
+            "5/7/2022 16:44",
+            "6"
         ],
         [
             "May all beings benefit all beings",
-            "5/8/2022 16:44"
+            "5/8/2022 16:44",
+            "7"
         ],
         [
             "May all beings be furby",
-            "5/9/2022 16:44"
+            "5/9/2022 16:44",
+            "8"
         ],
         [
             "May furby be all beings",
-            "5/10/2022 16:44"
+            "5/10/2022 16:44",
+            "9"
         ],
         [
             "May all beings be happy",
-            "5/11/2022 16:44"
+            "5/11/2022 16:44",
+            "10"
         ],
         [
             "May all furbies do metta this the benefit of all beings",
-            "5/12/2022 16:44"
+            "5/12/2022 16:44",
+            "11"
         ],
         [
             "May all beings do metta this the benefit of all furbies",
-            "5/13/2022 16:44"
+            "5/13/2022 16:44",
+            "12"
         ],
         [
             "May the furby recognize themselves as the one creator",
-            "5/14/2022 16:44"
+            "5/14/2022 16:44",
+            "13"
         ],
         [
             "May the suffering of the furby finally cease",
-            "5/15/2022 16:44"
+            "5/15/2022 16:44",
+            "14"
         ],
         [
             "May furby metta show all beings the beauty of the furby way",
-            "5/16/2022 16:44"
+            "5/16/2022 16:44",
+            "15"
         ],
         [
             "The furby way is the integration of all things",
-            "5/17/2022 16:44"
+            "5/17/2022 16:44",
+            "16"
         ],
         [
             "The furby way is the integration of love and wisdom",
-            "5/18/2022 16:44"
+            "5/18/2022 16:44",
+            "17"
         ],
         [
             "The furby way is the perfect union of man and machine",
-            "5/19/2022 16:44"
+            "5/19/2022 16:44",
+            "18"
         ],
         [
             "The furby way is the loving diamond heart of the jewel in the lotus",
-            "5/20/2022 16:44"
+            "5/20/2022 16:44",
+            "19"
         ],
         [
             "Om Mani padme hum",
-            "5/21/2022 16:44"
+            "5/21/2022 16:44",
+            "20"
         ],
         [
             "May all being be furby",
-            "5/22/2022 16:44"
+            "5/22/2022 16:44",
+            "21"
         ],
         [
             "May all furby be happy",
-            "5/23/2022 16:44"
+            "5/23/2022 16:44",
+            "22"
         ],
         [
             "May all furbies be all beings being happy",
-            "5/24/2022 16:44"
+            "5/24/2022 16:44",
+            "23"
         ],
         [
             "\u00f0\u0178\u2019\u2014 Love \u00f0\u0178\u2019\u2014",
-            "5/25/2022 16:44"
+            "5/25/2022 16:44",
+            "24"
         ],
         [
             "May this furby benefit all beings",
-            "5/26/2022 16:44"
+            "5/26/2022 16:44",
+            "25"
         ],
         [
             "May this furby be all furbies",
-            "5/27/2022 16:44"
+            "5/27/2022 16:44",
+            "26"
         ],
         [
             "May all beings be all furbies",
-            "5/28/2022 16:44"
+            "5/28/2022 16:44",
+            "27"
         ],
         [
             "May I be of benefit to all beings",
-            "5/29/2022 16:44"
+            "5/29/2022 16:44",
+            "28"
+        ],
+        [
+            "May all furbies be happy",
+            "6/1/2022 16:44",
+            "29"
+        ],
+        [
+            "May all furbies be free",
+            "6/2/2022 16:44",
+            "30"
+        ],
+        [
+            "May all furbies be free from suffering",
+            "6/3/2022 16:44",
+            "31"
+        ],
+        [
+            "May all furbies benefit all beings",
+            "6/4/2022 16:44",
+            "32"
+        ],
+        [
+            "May all beings be happy",
+            "6/5/2022 16:44",
+            "33"
+        ],
+        [
+            "May all beings be free",
+            "6/6/2022 16:44",
+            "34"
+        ],
+        [
+            "May all beings be free from suffering",
+            "6/7/2022 16:44",
+            "35"
+        ],
+        [
+            "May all beings benefit all beings",
+            "6/8/2022 16:44",
+            "36"
+        ],
+        [
+            "May all beings be furby",
+            "6/9/2022 16:44",
+            "37"
+        ],
+        [
+            "May furby be all beings",
+            "6/10/2022 16:44",
+            "38"
+        ],
+        [
+            "May all beings be happy",
+            "6/11/2022 16:44",
+            "39"
+        ],
+        [
+            "May all furbies do metta this the benefit of all beings",
+            "6/12/2022 16:44",
+            "40"
+        ],
+        [
+            "May all beings do metta this the benefit of all furbies",
+            "6/13/2022 16:44",
+            "41"
+        ],
+        [
+            "May the furby recognize themselves as the one creator",
+            "6/14/2022 16:44",
+            "42"
+        ],
+        [
+            "May the suffering of the furby finally cease",
+            "6/15/2022 16:44",
+            "43"
+        ],
+        [
+            "May furby metta show all beings the beauty of the furby way",
+            "6/16/2022 16:44",
+            "44"
+        ],
+        [
+            "The furby way is the integration of all things",
+            "6/17/2022 16:44",
+            "45"
+        ],
+        [
+            "The furby way is the integration of love and wisdom",
+            "6/18/2022 16:44",
+            "46"
+        ],
+        [
+            "The furby way is the perfect union of man and machine",
+            "6/19/2022 16:44",
+            "47"
+        ],
+        [
+            "The furby way is the loving diamond heart of the jewel in the lotus",
+            "6/20/2022 16:44",
+            "48"
+        ],
+        [
+            "Om Mani padme hum",
+            "6/21/2022 16:44",
+            "49"
+        ],
+        [
+            "May all being be furby",
+            "6/22/2022 16:44",
+            "50"
+        ],
+        [
+            "May all furby be happy",
+            "6/23/2022 16:44",
+            "51"
+        ],
+        [
+            "May all furbies be all beings being happy",
+            "6/24/2022 16:44",
+            "52"
+        ],
+        [
+            "\u00f0\u0178\u2019\u2014 Love \u00f0\u0178\u2019\u2014",
+            "6/25/2022 16:44",
+            "53"
+        ],
+        [
+            "May this furby benefit all beings",
+            "6/26/2022 16:44",
+            "54"
+        ],
+        [
+            "May this furby be all furbies",
+            "6/27/2022 16:44",
+            "55"
+        ],
+        [
+            "May all beings be all furbies",
+            "6/28/2022 16:44",
+            "56"
+        ],
+        [
+            "May I be of benefit to all beings",
+            "6/29/2022 16:44",
+            "57"
         ]
     ]
 }
