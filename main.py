@@ -18,9 +18,21 @@ def write_text_json(filename, json):
     with open(filename, "w") as file:
         file.write(json)
 
-
 def translate_to_furbish(english_text_list):
-    translation_dict = {"for":"this"}
+    furb_dict_text = read_text_file("dictionary.txt")
+    translation_dict = {}
+    for line in furb_dict_text:
+        print(line)
+        split = line.split("\t")
+        if "/" in split[0]:
+            further_split = split[0].split("/")
+            for j in range(len(further_split)):
+                furb_dict_text.append(further_split[j] + " " + split[1])
+    for line in furb_dict_text:
+        if len(line) > 5:
+            print(line)
+            split = line.split()
+            translation_dict[split[0].lower()] = split[1].lower()
     translated_text = []
     for line in english_text_list:
         list_of_words = line.split()
@@ -37,6 +49,8 @@ def translate_to_furbish(english_text_list):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     english = read_text_file("english.txt")
+    for i in range(len(english)):
+        english[i] = english[i].lower()
     furbish_translation = translate_to_furbish(english)
 
     ids = list(range(len(furbish_translation)))
