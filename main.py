@@ -38,10 +38,11 @@ def translate_to_furbish(english_text_list):
 if __name__ == '__main__':
     english = read_text_file("english.txt")
     furbish_translation = translate_to_furbish(english)
-    dates = ["4/20/2022 16:44",
-             "4/24/2022 16:44",
-             "4/22/2022 14:22",
-             "4/28/2022 16:44"]
+    dates = []
+    for i in range(len(furbish_translation)):
+        day = int(i+1%29)
+        i+1 / 29
+        dates.append("5/" + str(day) + "/2022 16:44")
 
     tweet_dict = {"tweet_date_pairs": None}
     tweet_date_pairs = []
