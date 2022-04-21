@@ -1,14 +1,20 @@
 {
-  "furb_tweets": [{
-    "tweet": "This is the furbish tweet",
-    "time_to_tweet": "2018-12-10T13:49:51.141Z"
-  },
-  {
-    "tweet": "This is the furbish tweet 2",
-    "time_to_tweet": "2019-12-10T13:49:51.141Z"
-  },
-  {
-    "tweet": "This is the furbish tweet 3",
-    "time_to_tweet": "2020-12-10T13:49:51.141Z"
-  } ]
+    "tweet_date_pairs": [
+        [
+            "this the benefit of all beings",
+            "2022-04-20T18:40:04.802273"
+        ],
+        [
+            "may all beings be happy",
+            "2022-04-20T18:40:04.802273"
+        ],
+        [
+            "may all beings be free from suffering",
+            "2022-04-20T18:40:04.802273"
+        ],
+        [
+            "may all beings have joy and ever more joy",
+            "2022-04-20T18:40:04.802273"
+        ]
+    ]
 }

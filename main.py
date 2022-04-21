@@ -1,5 +1,6 @@
 # This is a sample Python script.
-
+import json
+import datetime
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
@@ -12,6 +13,11 @@ def write_text_list(filename, text_list):
     with open(filename, "w") as file:
         for line_of_text in text_list:
             file.write(line_of_text + "\n")
+
+def write_text_json(filename, json):
+    with open(filename, "w") as file:
+        file.write(json)
+
 
 def translate_to_furbish(english_text_list):
     translation_dict = {"for":"this"}
@@ -32,4 +38,28 @@ def translate_to_furbish(english_text_list):
 if __name__ == '__main__':
     english = read_text_file("english.txt")
     furbish_translation = translate_to_furbish(english)
-    write_text_list("furbish.txt", furbish_translation)
+    dates = []
+
+    a_datetime = datetime.datetime.now()
+    formatted_datetime = a_datetime.isoformat()
+
+    for i in range(len(furbish_translation)):
+        dates.append(formatted_datetime)
+
+    tweet_dict = {"tweet_date_pairs": None}
+    tweet_date_pairs = []
+    for i in range(len(furbish_translation)):
+        tweet_date = []
+        tweet_date.append(furbish_translation[i])
+        tweet_date.append(dates[i])
+        tweet_date_pairs.append(tweet_date)
+    tweet_dict["tweet_date_pairs"] = tweet_date_pairs
+    formatted_json = json.dumps(
+        tweet_dict,
+        indent=4,
+        sort_keys=True
+    )
+    write_text_json("furbish.json", formatted_json)
+    if len(dates) != len(furbish_translation):
+        print("A tweet doesn't have a date")
+        exit()
