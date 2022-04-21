@@ -38,13 +38,10 @@ def translate_to_furbish(english_text_list):
 if __name__ == '__main__':
     english = read_text_file("english.txt")
     furbish_translation = translate_to_furbish(english)
-    dates = []
-
-    a_datetime = datetime.datetime.now()
-    formatted_datetime = a_datetime.isoformat()
-
-    for i in range(len(furbish_translation)):
-        dates.append(formatted_datetime)
+    dates = ["4/20/2022 16:44",
+             "4/24/2022 16:44",
+             "4/22/2022 14:22",
+             "4/28/2022 16:44"]
 
     tweet_dict = {"tweet_date_pairs": None}
     tweet_date_pairs = []
