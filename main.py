@@ -38,27 +38,15 @@ def translate_to_furbish(english_text_list):
 if __name__ == '__main__':
     english = read_text_file("english.txt")
     furbish_translation = translate_to_furbish(english)
-    dates = []
+
     ids = list(range(len(furbish_translation)))
     counter = 0
-    date = 5
-    for i in range(len(furbish_translation)):
-        day = int((i)%29) + 1
-        counter += 1
-        if counter > 29:
-            counter = 0
-            date += 1
-        dates.append(str(date) + "/" + str(day) + "/2022 16:44")
-        if date > 12:
-            print("Have to update this now")
-            exit()
 
     tweet_dict = {"tweet_date_pairs": None}
     tweet_date_pairs = []
     for i in range(len(furbish_translation)):
         tweet_date = []
         tweet_date.append(furbish_translation[i])
-        tweet_date.append(dates[i])
         tweet_date.append(str(ids[i]))
         tweet_date_pairs.append(tweet_date)
     tweet_dict["tweet_date_pairs"] = tweet_date_pairs
@@ -68,6 +56,3 @@ if __name__ == '__main__':
         sort_keys=True
     )
     write_text_json("furbish.json", formatted_json)
-    if len(dates) != len(furbish_translation):
-        print("A tweet doesn't have a date")
-        exit()
