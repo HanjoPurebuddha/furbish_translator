@@ -16,6 +16,7 @@ one creator	dah may-may a-loh
 No!/Big no	Dah-boo
 Big yes	Dah-ee-tah
 furbies	furby
+man	furby
 Birth/Birthday	Tee-toh
 Birthday	Toh-toh
 Boring	Koo-dah-way-loh
@@ -155,3 +156,8 @@ yeah    wah
 Yes	Ee-tay
 Yippee	Yippee
 You	Oo-nye
+Jewel	ay-koo
+Cease	oo-loo toh
+recieve	tah-tah
+Integration	bye-way toh-dye
+Machine	Doo-ay-loo-lah Noo-lah
